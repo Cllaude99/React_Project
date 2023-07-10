@@ -8,7 +8,7 @@ export default function InputFocusTest() {
   //prettier-ignore
   return(
     <section className='mt-4'>
-      <Title>InputFocusTest</Title>
+      <Title>ForwardRefTest</Title>
       <div className='flex justify-center mt-4'>
         <input ref={inputRef} className='input input-primary'
           placeholder='enter some text' />
