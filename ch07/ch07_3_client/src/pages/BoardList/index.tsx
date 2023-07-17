@@ -46,7 +46,7 @@ const BoardList: FC<BoardListProps> = ({
           onClick={cardClicked(card.uuid)}
         />
       )),
-    [cardClicked, cards, onRemoveCard]
+    [cards, onRemoveCard]
   )
 
   return (
